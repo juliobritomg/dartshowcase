@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <element name="x-gaugebar" constructor="GaugeBar" extends="div">
+  <template>
+    <div id="bar"><article id="text">GaugeBar contador: {{valor}}px</article></div>
+       <button on-click="increase()">Increase</button>
+       <button on-click="decrease()">Decrease</button>
+    <script type="application/dart" src="gaugebar.dart"></script>
+  </template>
+ </element>
+</body>
+</html>

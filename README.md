@@ -1,4 +1,4 @@
-dartshowcase
+DartShowCase
 ============
 
-a little and simple dart showcase
+A little and simple dart showcase

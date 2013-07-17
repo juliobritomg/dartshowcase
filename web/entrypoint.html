@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>Little Ben</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="import" href="littleben.html">
+     <link rel="import" href="bindings.html">
+     <link rel="import" href="dinamic.html">
+     <link rel="import" href="gaugebar.html">
+  </head>
+<body>
+    <div is="x-littleben" id="littleben"></div>
+
+    <div is="x-bindings" id="bindings"></div>
+    
+    <div is="x-dinamic" id="counter"></div>
+    
+    <div is="x-gaugebar" id="gauge"></div>
+    
+    <script type="application/dart" src="entrypoint.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+</body>
+</html>

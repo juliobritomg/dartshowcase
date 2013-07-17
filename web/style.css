@@ -1,0 +1,62 @@
+@CHARSET "UTF-8";
+
+#littleben div h1{
+      font-size: 20pt;
+      align-content: center;
+  
+  }
+  
+#littleben div{
+      padding: 3px 3px 3px 3px;
+      border-radius: 6px;
+      border: solid 3px #bbb;  
+      font-size: 20pt;
+      align-content: center;
+      background: #ddd;
+      width: 300px;
+  }
+  
+  #bindings #panel{
+      margin-top: 10px;  
+      padding: 3px 3px 3px 3px;  
+      border-radius: 6px;
+      border: solid 3px #bbb;  
+      align-content: center;
+      background: #eee;
+      width: 96%;  
+  } 
+  
+    #bindings div{
+      margin-top: 10px;  
+      padding: 3px 3px 3px 3px;  
+      border-radius: 6px;
+      border: solid 2px #bbb;  
+      align-content: center;
+      background: #ccc;
+      width: 300px;  
+  } 
+  
+  #counter div{
+    margin-top: 10px;  
+    padding: 3px 3px 3px 3px;    
+    border-radius: 6px;
+    border: solid 3px #aaa;
+    background: #ddd;
+    width: 300px;  
+  }   
+  
+  #gauge #bar{
+    padding: 3px 3px 3px 3px;  
+    background: #aaa;
+    margin-top: 10px;
+    border-radius: 6px;
+    width:300px;
+    border: solid 3px #777;
+    -webkit-transition: width 2s;
+    overflow: hidden;
+ }     
+  
+ #gauge #bar #text{
+    width: 200px;
+    
+ } 

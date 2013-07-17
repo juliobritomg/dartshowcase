@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <element name="x-bindings" constructor="Bindings" extends="div">
+    <template>
+     <div>
+        <h1>Estudo de Bindings</h1>
+        Length: {{bindValue.length}}
+        <div id="panel">
+            <input type="text" id="text1" bind-value="bindValue" placeholder="Digite aqui">
+            <input type="text" value={{bindValue}} id="text2">
+         </div>   
+     </div>
+     <script type="application/dart" src="bindings.dart"></script>
+    </template>
+  </element>
+</body>
+</html>

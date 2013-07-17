@@ -1,0 +1,6 @@
+name: DartMiniShowCase
+description: A sample WebUI Component
+dependencies:
+  browser: any
+  js: any
+  web_ui: any
